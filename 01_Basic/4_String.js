@@ -45,3 +45,76 @@
 // console.log(searchData);
 
 // #Extracting String Part
+/*There are 3 methods to extract
+==> slice(start,end):- The slice() method extracts a portion of a string and returns a new string.
+==> substring(start,end) :- Similar to the slice but does not accept negative indices.
+==> substr(start,length) :- The substr() method returns a substring starting from a specified index and with a specified length.*/
+
+// // #slice
+// const strr = "Hello, World!";
+// const sliced = strr.slice(7, 12);
+// console.log(sliced); // Output: World
+
+// // #substring
+// const strrr = "Hello, World!";
+// const sub = strrr.substring(7, 12);
+// console.log(sub); // Output: World
+
+// // #substr
+// const str = "Hello, World!";
+// const substr = str.substr(7, 5);
+// console.log(substr); // Output: World
+
+
+//let slice_word="apple,bananaa,kiwi"; // you can't use let cuz let can't allow to re-declare the variable in same scope.
+
+// var slice_word="apple,bananaa,kiwi"; 
+// console.log(slice_word.slice(0,4));
+// let slice_word1="apple";
+// let slice_word2="bananaa";
+// console.log(slice_word1.slice(0,2));
+// console.log(slice_word2.slice(0,2+1));
+
+// #replace("word","replacement Word") :- The replace() method replaces a specified substring with another substring.
+// const str="Hello World";
+// const substr=str.replace("World","Dosto");
+// console.log(substr);  // Output : Hello Dosto
+
+// #replaceAll("word","replacement Word"):- The replaceAll() method is similar to replace(), but it replaces all occurrences with the specified substring.
+// const str="Hello World,Hello World,Hello World";
+// console.log(str.replaceAll("World","Dosto")); // output : Hello Dosto,Hello Dosto,Hello Dosto
+
+// toUpperCase() :- Convert in Capital letters
+// const str="Hello World";
+// console.log(str.toUpperCase());
+// toLowerCase() :- Convert in lower letters
+// const str1="Hello World";
+// console.log(str1.toLowerCase());
+
+//#conat():- The concat() method joins two or more strings and returns a new string.
+// const str1="Maruti";
+// const str2="Panchal";
+// console.log(str1.concat(str2));
+// console.log(str2.concat(str1));
+// console.log(`${str1} ${str2}`);
+
+//#String trim() / trimStart() / trimEnd(): These methods remove whitespace characters from the beginning, end, or both sides of a string.
+// const str="     Hello    World      ";
+// console.log(str.trim());
+// console.log(str.trimStart());
+// console.log(str.trimEnd());
+
+// #charAt() :- The charAt() method returns the character at a specified index in a string.
+// const str="Hello world";
+// console.log(str.charAt(8));
+
+// #charCodeAt(number):- The charCodeAt() method returns the Unicode value of the character at a specified index.
+// const str="Hello World";
+// console.log(str.charCodeAt(10));  //100
+
+// #split():- The split() method divides a string into an array of substrings based on a specified delimiter.
+// const str="apple,bananaa,kiwi";
+// console.log(str.split(","));   // output :- [ 'apple', 'bananaa', 'kiwi' ]
+
+
+
