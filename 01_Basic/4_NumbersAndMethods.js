@@ -63,4 +63,3 @@ console.log(a.toFixed(3));  // 5.568
 const a=5.56789;
 console.log(a.toPrecision(3));   //5.57
 */
-
