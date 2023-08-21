@@ -91,7 +91,7 @@ console.log(Math.pow(16,3));   //4096
 */
 
 // # random()
-/*
+/* 
 console.log(Math.random());     // 0.5836423144057297
 console.log(Math.random());    // 0.05913645457709116
 console.log(Math.random());   // 0.8904589981527231
