@@ -1,7 +1,4 @@
-console.log(CompanyName);
-// console.log(location);
-// console.log(salary);
-// console.log(age);
-// console.log(department);
-// console.log(emplyeeName);
-// console.log(address);
+console.log(fruit11);
+// console.log(fruit12);
+// console.log(fruit13);
+// console.log(fruit14);
