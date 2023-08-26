@@ -13,3 +13,9 @@
 
 
 calculator(10,3);
+
+// Immediatly invoked function execution IIFE
+
+(function(x){
+    console.log(x*x);
+})(5);
