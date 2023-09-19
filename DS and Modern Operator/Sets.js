@@ -3,13 +3,12 @@
 // In Sets there is no index concept.We can not access the data using index.
 // Sets are not intended to replace Array.
 // Sets Methods
+
 /*
 size :- calculate the toatl unique elements.
 has() :- It chech the given value is prest or not. retur boolean values.
 add() :- It will the provided data in sets.
 delete() :- It is used to delete the element.
-
-
 */
 
 
