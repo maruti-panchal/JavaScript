@@ -1,0 +1,26 @@
+/* Add CSS to center the button in the div */
+body {
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  background-color: #3498db; /* Button background color */
+  color: #ffffff; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Add hover effect to the button */
+button:hover {
+  background-color: #2980b9; /* Hovered button background color */
+  transform: scale(1.05); /* Scale the button slightly on hover */
+}
