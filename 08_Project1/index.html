@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('https://images.unsplash.com/photo-1519865885898-a54a6f2c7eea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1958&q=80'); /* Replace 'your-image.jpg' with the path to your background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        #countdown {
+            font-size: 2rem;
+            font-weight: bold;
+            /* background-color: rgba(255, 255, 255, 0.8); Optional: Add a semi-transparent background for better visibility */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        #message {
+            font-size: 1.5rem;
+            margin-top: 20px;
+            /* background-color: rgba(255, 255, 255, 0.8); Optional: Add a semi-transparent background for better visibility */
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        input[type="text"] {
+            width: 60px;
+            height: 50px;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Countdown Timer</h1>
+    <div id="end-date">22 Sep 2023 23;24 pm</div>
+    <div id="countdown">
+        <input type="text" id="days" placeholder="0"> days
+        <input type="text" id="hours" placeholder="0"> hours
+        <input type="text" id="minutes" placeholder="0"> minutes
+        <input type="text" id="seconds" placeholder="0"> seconds
+    </div>
+    <div id="message">Set your countdown values and start!</div>
+</body>
+</html>
