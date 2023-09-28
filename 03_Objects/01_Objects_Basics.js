@@ -1,5 +1,5 @@
 // object literals
-
+// We can access object usind dot or brackets.
 /*
 const mySymb=Symbol("key1");
 const jsUser={
